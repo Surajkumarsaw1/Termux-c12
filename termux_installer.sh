@@ -28,6 +28,8 @@ apt install pkg-config -y
 
 pip install --upgrade pip
 
+pip install wheel
+
 LDFLAGS=" -lm -lcompiler_rt" pip install numpy
 
 apt install zlib zlib-dev
