@@ -92,20 +92,17 @@ apt install wget
 echo "installing cython";
 pip install cython
 
-echo "installing scikit-learn"
-LDFLAGS=" -lm -lcompiler_rt" pip install scikit-learn
-
 echo "installing opencv"
 apt install opencv
 pip isntall opencv
 
 LDFLAGS="-L/system/lib/" CFLAGS=" -I/data/data/com.termux/files/usr/include/" pip install Pillow
 
-CFLAGS=" -I/data/data/com.termux/files/usr/include/freetype2" CPPFLAGS=$CFLAGS LDFLAGS=" -lm -lcompiler_rt" pip install numpy matplotlib pandas jupyter scikit-learn
+CFLAGS=" -I/data/data/com.termux/files/usr/include/freetype2" CPPFLAGS=$CFLAGS LDFLAGS=" -lm -lcompiler_rt" pip install numpy matplotlib pandas jupyter
 
-LDFLAGS=" -lm -lcompiler_rt" pip install numpy matplotlib pandas jupyter scikit-learn
+LDFLAGS=" -lm -lcompiler_rt" pip install numpy matplotlib pandas jupyter
 
-pip install numpy matplotlib pandas jupyter scikit-learn
+pip install numpy matplotlib pandas jupyter
 
 figlet -f big  Congratulation Done  !!! | lolcat
 figlet -f big  Please check that all package were installed correctly | lolcat
