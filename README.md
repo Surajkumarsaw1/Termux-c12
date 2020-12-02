@@ -1,8 +1,12 @@
 # CBSE-class-12-python-packages-on-termux-2021
-
 Installs numpy, pandas, matplotlib, jupyter-notebook and scipy
 
 # How to use
+apt update && apt upgrade
+
+apt install git
+
+git clone https://github.com/Surajkumarsaw1/Termux-CBSE-class-12-python-packages-2021
 
 cd Termux-CBSE-class-12-python-packages-2021
 
