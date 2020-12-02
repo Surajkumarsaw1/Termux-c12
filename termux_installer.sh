@@ -20,19 +20,19 @@ apt update
 apt upgrade
 
 echo "installing clang" | lolcat
-apt install clang
+apt install clang -y
 
 echo "installing git" | lolcat
-apt install git
+apt install git -y
 
 echo "intalling python" | lolcat
-apt install python
+apt install python -y
 
 echo "installing fftw" | lolcat
-apt install fftw
+apt install fftw -y
 
 echo "installing pkg-config" | lolcat
-apt install pkg-config
+apt install pkg-config -y
 
 echo "upgrading pip" | lolcat
 pip install --upgrade pip
@@ -41,22 +41,27 @@ echo "intalling wheel" | lolcat
 pip install wheel
 
 echo "installing requirements for gmpy2" | lolcat
-apt install libgmp libmpc libmpfr
+apt install libgmp -y
+apt install libmpc -y
+apt install libmpfr -y
 
 echo "installing requirements for lxml" | lolcat
-apt install libxml2 libxslt 
+apt install libxml2 -y
+apt install libxslt -y
 
 echo "installing requirements for matplotlib" | lolcat
-apt install freetype libpng 
+apt install freetype -y
+apt install libpng -y
 
 echo "installing requirements for pynacl" | lolcat
-apt install libsodium 
+apt install libsodium -y
 
 echo "installing requirements for pillow" | lolcat
-apt install libjpeg-turbo libpng 
+apt install libjpeg-turbo -y
+apt install libpng -y
 
 echo "installing requirements for pyzmq" | lolcat
-apt install libzmq 
+apt install libzmq -y
 
 echo "subscribing to APT repository" | lolcat
 curl -LO https://its-pointless.github.io/setup-pointless-repo.sh
@@ -78,7 +83,7 @@ pip install pandas
 LDFLAGS=" -lm -lcompiler_rt" pip install pandas
 
 echo "installing zlib" | lolcat
-apt install zlib
+apt install zlib -y
 
 echo "installing matplotlib"
 CFLAGS=" -I/data/data/com.termux/files/usr/include/freetype2" CPPFLAGS=$CFLAGS LDFLAGS=" -lm -lcompiler_rt" pip install matplotlib
@@ -87,7 +92,7 @@ echo "installing jupyter notebook" | lolcat
 pip install jupyterlab
 
 echo "installing wget" | lolcat
-apt install wget
+apt install wget -y
 
 echo "installing cython" | lolcat
 pip install cython
