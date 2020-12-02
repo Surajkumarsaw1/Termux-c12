@@ -8,6 +8,7 @@ cd Termux-CBSE-class-12-python-packages-2021
 
 bash termux_installer.sh
 
+## NOTE :
 please be patience.
 
 pandas may take few hours.
