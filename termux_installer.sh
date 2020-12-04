@@ -9,6 +9,9 @@ apt install toilet -y
 apt install cowsay -y
 apt install nano -y
 apt install ruby -y
+apt update
+apt upgrade
+
 gem install lolcat
 
 echo
@@ -36,6 +39,9 @@ apt install pkg-config -y
 
 echo "upgrading pip" | lolcat
 pip install --upgrade pip
+
+echo "installing lolcat if not previously installed" | lolcat
+pip install lolcat
 
 echo "intalling wheel" | lolcat
 pip install wheel
