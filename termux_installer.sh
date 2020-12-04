@@ -40,9 +40,6 @@ apt install pkg-config -y
 echo "upgrading pip" | lolcat
 pip install --upgrade pip
 
-echo "installing lolcat if not previously installed" | lolcat
-pip install lolcat
-
 echo "intalling wheel" | lolcat
 pip install wheel
 
