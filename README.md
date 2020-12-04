@@ -8,7 +8,7 @@ apt install git
 
 git clone https://github.com/Surajkumarsaw1/Termux-c12.git
 
-cd Termux-CBSE-class-12-
+cd Termux-CBSE-c12
 
 bash termux_installer.sh
 
