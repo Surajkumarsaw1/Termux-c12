@@ -9,8 +9,6 @@ apt install toilet -y
 apt install cowsay -y
 apt install nano -y
 apt install ruby -y
-apt update
-apt upgrade
 
 gem install lolcat
 
