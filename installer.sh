@@ -7,7 +7,7 @@ apt install figlet -y
 apt install toilet -y
 apt install cowsay -y
 apt install nano -y
-apt install ruby -y
+apt install ruby
 
 gem install lolcat
 
