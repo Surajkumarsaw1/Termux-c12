@@ -4,7 +4,6 @@ clear
 apt update
 apt upgrade
 apt install figlet -y
-figlet Basic Installation
 apt install toilet -y
 apt install cowsay -y
 apt install nano -y
@@ -92,6 +91,9 @@ CFLAGS=" -I/data/data/com.termux/files/usr/include/freetype2" CPPFLAGS=$CFLAGS L
 echo "installing jupyter notebook" | lolcat
 pip install jupyterlab
 
+echo "installing ipython" | lolcat
+pip install ipython
+
 echo "installing wget" | lolcat
 apt install wget -y
 
@@ -103,12 +105,6 @@ apt install opencv
 pip install opencv
 
 LDFLAGS="-L/system/lib/" CFLAGS=" -I/data/data/com.termux/files/usr/include/" pip install Pillow
-
-CFLAGS=" -I/data/data/com.termux/files/usr/include/freetype2" CPPFLAGS=$CFLAGS LDFLAGS=" -lm -lcompiler_rt" pip install numpy matplotlib pandas jupyter
-
-LDFLAGS=" -lm -lcompiler_rt" pip install numpy matplotlib pandas jupyter
-
-pip install numpy matplotlib pandas jupyter
 
 figlet -f big  Congratulation Done  !!! | lolcat
 figlet -f big  Please check that all package were installed correctly | lolcat
