@@ -6,7 +6,7 @@ Installs numpy, pandas, matplotlib, jupyter-notebook and scipy && sql
 apt update && apt upgrade
 apt install git
 git clone https://github.com/Surajkumarsaw1/Termux-c12.git
-cd Termux-CBSE-c12
+cd Termux-c12
 bash installer.sh
 ```
 
@@ -18,16 +18,19 @@ bash installer.sh
 ### Keep termux in background it seems to freeze some time.
 
 ## How to install mariadb(mysql)
+### Install
 ```bash
 apt update && apt upgrade
 apt install git
 git clone https://github.com/Surajkumarsaw1/Termux-c12.git
-cd Termux-CBSE-c12
+cd Termux-c12
 bash db.sh
 ```
+### Creating User
+_**You may change username and password as you want.**_
 ```sql
 CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
-GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';
+GRANT ALL PRIVILEGES ON * . * TO 'username'@'localhost';
 exit
 ```
 ```bash
