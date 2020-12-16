@@ -12,6 +12,7 @@ git clone https://github.com/Surajkumarsaw1/Termux-c12.git
 cd Termux-CBSE-c12
 
 bash installer.sh
+```
 
 ## NOTE :
 please be patience.
@@ -19,7 +20,7 @@ please be patience.
 pandas may take few hours.
 
 ## do not exit termux screen seems to freeze some time.
-```
+
 
 ```markdown
 Syntax highlighted code block
