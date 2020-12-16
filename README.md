@@ -31,5 +31,5 @@ GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';
 exit
 ```
 ```bash
-mysql -y username -p
+mysql -u username -p
 ```
