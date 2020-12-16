@@ -1,6 +1,7 @@
 apt update
 apt upgrade -y
 
+apt install figlet -y
 apt install ruby
 gem install lolcat
 
