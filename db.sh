@@ -1,8 +1,15 @@
 apt update
 apt upgrade -y
 
+apt install figlet -y
 apt install ruby
 gem install lolcat
+
+echo "Installing python and modules for sql connection" | lolcat
+apt install python -y
+pip install SQLAlchemy
+pip install PyMySQL
+pip install mysql-connector
 
 apt-get update --fix-missing
 
@@ -30,6 +37,8 @@ echo "CREATE USER 'username'@'localhost' IDENTIFIED BY 'password'; " | lolcat
 echo ""
 echo "GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';" | lolcat
 echo ""
-echo "mysql -y [username] -p" | lolcat
+echo "exit"
+echo ""
+echo "mysql -u [username] -p" | lolcat
 
 mysql
