@@ -39,6 +39,6 @@ echo "GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';" | lolcat
 echo ""
 echo "exit"
 echo ""
-echo "mysql -y [username] -p" | lolcat
+echo "mysql -u [username] -p" | lolcat
 
 mysql
