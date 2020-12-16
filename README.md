@@ -2,15 +2,11 @@
 Installs numpy, pandas, matplotlib, jupyter-notebook and scipy
 
 # How to use
-```python
+```bash
 apt update && apt upgrade
-
 apt install git
-
 git clone https://github.com/Surajkumarsaw1/Termux-c12.git
-
 cd Termux-CBSE-c12
-
 bash installer.sh
 ```
 
@@ -20,25 +16,6 @@ please be patience.
 pandas may take few hours.
 
 ## do not exit termux screen seems to freeze some time.
-
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
