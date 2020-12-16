@@ -11,8 +11,8 @@ bash installer.sh
 ```
 
 ## NOTE :
-**- Please be patience.**
-**- Pandas may take few hours.**
-**- I would suggest to install it at night.You may go to sleep after pandas installation have started.**
+- **Please be patience.**
+- **Pandas may take few hours.**
+- **I would suggest to install it at night.You may go to sleep after pandas installation have started.**
 
 ## Keep termux in background it seems to freeze some time.
