@@ -31,6 +31,8 @@ echo "CREATE USER 'username'@'localhost' IDENTIFIED BY 'password'; " | lolcat
 echo ""
 echo "GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';" | lolcat
 echo ""
+echo "exit"
+echo ""
 echo "mysql -y [username] -p" | lolcat
 
 mysql
