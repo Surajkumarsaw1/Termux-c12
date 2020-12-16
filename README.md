@@ -17,7 +17,7 @@ bash installer.sh
 
 ## Keep termux in background it seems to freeze some time.
 
-# How to install python modules
+# How to install mariadb(mysql)
 ```bash
 apt update && apt upgrade
 apt install git
