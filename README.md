@@ -33,3 +33,17 @@ exit
 ```bash
 mysql -u username -p
 ```
+## Jupyter notebook use.
+![jupyter start](/imgs/a1.jpg)
+![jupyter start](/imgs/a2.1.jpg)
+![jupyter start](/imgs/a2.2.jpg)
+![jupyter start](/imgs/a2.3.jpg)
+![jupyter start](/imgs/a3.jpg)
+![jupyter start](/imgs/a4.jpg)
+![jupyter start](/imgs/a5.jpg)
+![jupyter start](/imgs/a6.jpg)
+![jupyter start](/imgs/a7.jpg)
+## SQL use
+![jupyter start](/imgs/b1.jpg)
+![jupyter start](/imgs/b2.jpg)
+![jupyter start](/imgs/b3.jpg)
