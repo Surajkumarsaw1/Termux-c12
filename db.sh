@@ -4,7 +4,7 @@ apt upgrade -y
 apt install ruby
 gem install lolcat
 
-apt install mariadb -y
+pkg install mariadb
 cd /data/data/com.termux/files/usr/etc
 
 if [ -d /data/data/com.termux/files/usr/etc ]
