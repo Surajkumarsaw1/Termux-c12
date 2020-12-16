@@ -5,6 +5,12 @@ apt install figlet -y
 apt install ruby
 gem install lolcat
 
+echo "Installing python and modules for sql connection" | lolcat
+apt install python -y
+pip install SQLAlchemy
+pip install PyMySQL
+pip install mysql-connector
+
 apt-get update --fix-missing
 
 apt install mariadb
