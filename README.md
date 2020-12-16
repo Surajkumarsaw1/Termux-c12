@@ -11,18 +11,8 @@ bash installer.sh
 ```
 
 ## NOTE :
-please be patience.
+**please be patience.**
+**pandas may take few hours.**
+**I would suggest to install it at night.You may go to sleep after pandas installation have started.**
 
-pandas may take few hours.
-
-## do not exit termux screen seems to freeze some time.
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Surajkumarsaw1/Termux-c12/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Keep termux in background it seems to freeze some time.
