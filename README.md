@@ -25,3 +25,11 @@ git clone https://github.com/Surajkumarsaw1/Termux-c12.git
 cd Termux-CBSE-c12
 bash db.sh
 ```
+```sql
+CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';
+exit
+```
+```bash
+mysql -y username -p
+```
