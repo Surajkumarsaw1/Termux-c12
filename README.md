@@ -33,6 +33,11 @@ CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
 GRANT ALL PRIVILEGES ON * . * TO 'username'@'localhost';
 exit
 ```
+_**To start MySQL**_
+```bash
+mysql
+```
+_**To start MySQL with specific user**_
 ```bash
 mysql -u username -p
 ```
