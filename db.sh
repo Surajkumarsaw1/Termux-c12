@@ -35,9 +35,9 @@ echo "copy paste the lines below which are colourful " | lolcat
 echo ""
 echo "CREATE USER 'username'@'localhost' IDENTIFIED BY 'password'; " | lolcat
 echo ""
-echo "GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';" | lolcat
+echo "GRANT ALL PRIVILEGES ON * . * TO 'username'@'localhost';" | lolcat
 echo ""
-echo "exit"
+echo "exit" | lolcat
 echo ""
 echo "mysql -u [username] -p" | lolcat
 
