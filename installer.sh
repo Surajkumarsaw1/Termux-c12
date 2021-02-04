@@ -102,7 +102,6 @@ pip install cython
 
 echo "installing opencv"
 apt install opencv
-pip install opencv
 
 LDFLAGS="-L/system/lib/" CFLAGS=" -I/data/data/com.termux/files/usr/include/" pip install Pillow
 
