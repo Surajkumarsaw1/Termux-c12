@@ -26,6 +26,10 @@ else
 fi
 
 mysql_install_db
+
+echo "mysqld_safe -u root &" > /data/data/com.termux/files/usr/bin/sql
+chmod +x /data/data/com.termux/files/usr/bin/sql
+
 cd
 mysqld_safe -u root &
 
