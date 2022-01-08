@@ -72,8 +72,8 @@ echo "installing package of numpy and scipy" | lolcat
 pkg install numpy
 pkg install scipy
 
-#pip install numpy
-#pip install scipy
+pip install numpy
+pip install scipy
 
 echo "installing dependences for opencv" | lolcat
 pkg install build-essential cmake libjpeg-turbo libpng python
