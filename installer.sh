@@ -51,6 +51,7 @@ apt install libxslt -y
 
 echo "installing requirements for matplotlib" | lolcat
 apt install freetype -y
+apt install libjpeg-turbo -y
 apt install libpng -y
 
 echo "installing requirements for pynacl" | lolcat
@@ -71,8 +72,8 @@ echo "installing package of numpy and scipy" | lolcat
 pkg install numpy
 pkg install scipy
 
-pip install numpy
-pip install scipy
+#pip install numpy
+#pip install scipy
 
 echo "installing dependences for opencv" | lolcat
 pkg install build-essential cmake libjpeg-turbo libpng python
@@ -85,8 +86,9 @@ LDFLAGS=" -lm -lcompiler_rt" pip install pandas
 echo "installing zlib" | lolcat
 apt install zlib -y
 
-echo "installing matplotlib"
-CFLAGS=" -I/data/data/com.termux/files/usr/include/freetype2" CPPFLAGS=$CFLAGS LDFLAGS=" -lm -lcompiler_rt" pip install matplotlib
+echo "installing matplotlib" | lolcat
+echo "PRESS CTRL+C IF STUCK IN A LOOP" 
+CFLAGS=" -I/data/data/com.termux/files/usr/include/freetype2" CPPFLAGS=$CFLAGS LDFLAGS=" -lm -lcompiler_rt" pip install matplotlib==3.2.1
 
 echo "installing jupyter notebook" | lolcat
 pip install jupyterlab
