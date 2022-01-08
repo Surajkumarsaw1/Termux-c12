@@ -1,4 +1,4 @@
-# THIS SCRIP DOES NOT INSTALL ANY PACKAGE EXCEPT JUPYTER NOTEBOOK.
+# SCRIP IS NO LONGER ABLE TO INSTALL NUMPY, SCIPY, MATPLOTLIB, OPENCV, PILLOW DUE TO VERSION INCOMPATIBILITY.
 # CBSE-class-12-python-packages-on-termux-2021
 Installs numpy, pandas, matplotlib, jupyter-notebook and scipy && sql
 
