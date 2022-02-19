@@ -105,7 +105,8 @@ pip install cython
 echo "installing opencv"
 apt install opencv
 
-LDFLAGS="-L/system/lib/" CFLAGS=" -I/data/data/com.termux/files/usr/include/" pip install Pillow
+#LDFLAGS="-L/system/lib/" CFLAGS=" -I/data/data/com.termux/files/usr/include/" pip install Pillow
+pip install Pillow
 
 figlet -f big  Congratulation Done  !!! | lolcat
 figlet -f big  Please check that all package were installed correctly | lolcat
