@@ -69,11 +69,14 @@ curl -LO https://its-pointless.github.io/setup-pointless-repo.sh
 bash setup-pointless-repo.sh
 
 echo "installing package of numpy and scipy" | lolcat
-pkg install numpy
+pkg install python-numpy
 pkg install scipy
 
-pip install numpy
+#pip install numpy
+#MATHLIB="m" pip3 install numpy
 pip install scipy
+
+
 
 echo "installing dependences for opencv" | lolcat
 pkg install build-essential cmake libjpeg-turbo libpng python
@@ -87,6 +90,7 @@ echo "installing zlib" | lolcat
 apt install zlib -y
 
 echo "installing matplotlib" | lolcat
+pkg install matplotlib
 echo "PRESS CTRL+C IF STUCK IN A LOOP" 
 CFLAGS=" -I/data/data/com.termux/files/usr/include/freetype2" CPPFLAGS=$CFLAGS LDFLAGS=" -lm -lcompiler_rt" pip install matplotlib==3.2.1
 
